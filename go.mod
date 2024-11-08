@@ -5,7 +5,7 @@ go 1.23.0
 toolchain go1.23.2
 
 require (
-	github.com/ProtonMail/go-crypto v1.1.0-beta.0-proton
+	github.com/ProtonMail/go-crypto v1.1.2
 	github.com/google/go-github/v32 v32.1.0
 	github.com/labstack/echo/v4 v4.12.0
 	golang.org/x/oauth2 v0.23.0
