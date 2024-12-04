@@ -7,13 +7,12 @@ toolchain go1.23.2
 require (
 	github.com/ProtonMail/go-crypto v1.1.0-beta.0-proton
 	github.com/google/go-github/v32 v32.1.0
-	github.com/labstack/echo/v4 v4.12.0
+	github.com/labstack/echo/v4 v4.13.0
 	golang.org/x/oauth2 v0.23.0
 )
 
 require (
 	github.com/cloudflare/circl v1.5.0 // indirect
-	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/labstack/gommon v0.4.2 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
