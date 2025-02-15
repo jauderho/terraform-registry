@@ -26,7 +26,7 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"net/http"
 	"os"
 	"regexp"
@@ -365,7 +365,7 @@ func getPublicKey(url string) (string, string, error) {
 		return "", "", fmt.Errorf("not found")
 	}
 
-	data, err := ioutil.ReadAll(resp.Body)
+	data, err := io.ReadAll(resp.Body)
 	if err != nil {
 		return "", "", err
 	}
